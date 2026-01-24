@@ -3,15 +3,29 @@ Botoes
 Cores de texto */
 
 :root{
+    ---primary-color: #8F0101;
+    ---secundary-color: #B81515;
+
+
     --background-primary-color: #ffffff;
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #0000;
 
-    --button-primary-color: #8F0101;
-    --button-secundary-color: #B81515;
 
     --text-primary-color: #222222;
     --text-secundary-color: #ffffff;
+
+
+    --tittle-weight:700;
+    --texte-weight:400;
+    --menu-text-weight:500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
 }
 
 body,html{
@@ -27,5 +41,7 @@ body{
 
 h1{
     color: var(--text-primary-color);
+    font-family: "Montserrat";
+    font-weight: var(--tittle-weight);
 }
 
