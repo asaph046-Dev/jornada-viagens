@@ -8,7 +8,7 @@ Cores de texto */
 
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
-  --background-tertiary-color: #0000;
+  --background-tertiary-color: #000000;
 
   --text-primary-color: #222222;
   --text-secundary-color: #ffffff;
@@ -25,20 +25,12 @@ Cores de texto */
   font-display: swap;
 }
 
-body,
-html {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body, html{
   height: 100%;
-  font-family: "RazerF5";
-}
-
-h1 {
-  color: var(--text-primary-color);
-  font-family: "Montserrat";
-  font-weight: var(--tittle-weight);
 }
