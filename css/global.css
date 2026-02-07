@@ -47,7 +47,7 @@ body {
 }
 
 .section-tittle{
-  margin-bottom: 32px;
+  margin: 88px 0 32px 0;
 }
 
 .section-tittle h2 {
@@ -79,6 +79,7 @@ body {
   text-decoration: none;
 }
 
+
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--secundary-color);
@@ -88,5 +89,10 @@ body {
 @media screen and (min-width: 768px) {
   .section-tittle h2 {
     font-size: 32px;
+  }
+
+  .section-tittle h3{
+    white-space: nowrap;
+
   }
 }
