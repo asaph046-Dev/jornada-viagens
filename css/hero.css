@@ -5,10 +5,25 @@
   background-size: cover;
 }
 
-.hero h2{
+.hero h1 {
+  text-align: center;
+  font-weight: var(--tittle-weight);
+  font-size: 32px;
+  margin: 88px 0 8px 0;
+}
+
+.hero hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 8px auto 32px auto;
+}
+
+.hero h2 {
   font-weight: var(--text-weight);
   font-size: 20px;
-  padding: 88px 24px;
+  padding: 24px;
   line-height: 1.5;
   text-align: center;
   margin: 0px;
@@ -21,10 +36,10 @@
     background-size: cover;
   }
 
-  .hero h2{
-  font-size: 32px;
-  padding: 88px 60px;
-}
+  .hero h2 {
+    font-size: 32px;
+    padding: 0 60px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -33,8 +48,8 @@
     background-size: cover;
   }
 
-  .hero h2{
-    padding: 88px 120px;
+  .hero h2 {
+    padding: 0 60px;
   }
 }
 
@@ -44,7 +59,7 @@
     background-size: cover;
   }
 
-  .hero h2{
-    padding: 104px 120px;
+  .hero h2 {
+    padding: 0 60px;
   }
 }
