@@ -1,0 +1,131 @@
+.payments {
+  margin: 0 auto 88px auto;
+  width: 312px;
+  height: 866px;
+}
+
+.text-content h3 {
+  font-weight: var(--tittle-weight);
+  font-size: 28px;
+}
+
+.text-content p {
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.image-content {
+  display: grid;
+  margin-top: 24px;
+  grid-template-columns: 1fr 1fr;
+  height: 460px;
+  gap: 24px;
+}
+
+.payments .image-content .image-bag {
+  background: url(../imgs/Montagem-japão-1.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-content .image-passport {
+  background: url(../imgs/Montagem-japão-2.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-content .image-people {
+  background: url(../imgs/Montagem-japão-3.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-content .image-people.span-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .text-content {
+    width: 648px;
+  }
+
+  .payments {
+    margin: 0 auto 88px auto;
+    width: 697px;
+    height: 768px;
+  }
+
+  .container-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-content {
+    margin: 24px 24px 0 24px;
+    grid-template-columns: 1fr 1fr;
+    height: 460px;
+    gap: 24px;
+  }
+  .image-content {
+    width: 648px;
+  }
+
+  .payments .image-content .image-bag {
+    background: url(../imgs/bag-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-content .image-passport {
+    background: url(../imgs/passport.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-content .image-people {
+    background: url(../imgs/people-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .text-content {
+    height: 460px;
+    width: 648px;
+  }
+
+  .text-content h3{
+    margin-top: 0;
+
+  }
+
+  .payments {
+    width: 1200px;
+    height: 583px;
+  }
+
+  .payments .image-content .image-bag {
+    background: url(../imgs/bag-image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .payments .image-content .image-passport {
+    background: url(../imgs/passport-image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .payments .image-content .image-people {
+    background: url(../imgs/people-image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-content {
+    height: 490px;
+    width: 100%;
+  }
+}
