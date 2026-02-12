@@ -35,8 +35,49 @@
     gap: 16px;
 }
 
-.social-link img, a{
+.social-link img{
     display: inline-block;
     width: 32px;
     height: 32px;
 }
+
+@media screen and (min-width:768px) {
+    .bottom-img{
+        background: url(../imgs/footer-image-tablet.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bottom{
+        justify-content: space-between;
+    }
+
+    
+
+    .hours-info p{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .bottom-img{
+        background: url(../imgs/footer-image-desktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bottom{
+        margin: 32px 120px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .hours-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
